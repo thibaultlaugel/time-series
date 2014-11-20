@@ -1,7 +1,7 @@
 #################################################################################################
 #                 TIME SERIES PROJECT - RELATION BETWEEN INCOME AND CONSUMPTION                 #
 #                                                                                               #
-#                               Thibault LAUGEL - Ilan BOURGINES                                #
+#                               Thibault LAUGEL - Ilan BOURGINE                                #
 ##################################################################################################
 
 
@@ -219,7 +219,7 @@ Arevenu2<-arima(TSRevenu,c(0,2,1))
 
 Aconso$coef/sqrt(diag(Aconso$var.coef))
 
-#Autocorrélations
+#Autocorrelations
 tsdiag(Arevenu2)
 t criterion
 tsdiag(Arevenuverification testsrevenu$residuals
