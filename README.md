@@ -1,4 +1,4 @@
-Temporal relation between income and consumption in France
+Temporal relation between income and consumption in France between 1949 and 2012
 =======================
 
 Time series project in R
