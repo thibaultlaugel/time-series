@@ -103,7 +103,7 @@ summary(ur.ers(DRevenu,type="DF-GLS",model="constant"))
 summary(ur.ers(DRevenu,type="P-test",model="constant"))
 kpss.test(DRevenu,null="L") #p-value > 0.1
 
-_______________________________
+
 #d=2 consumption
 adfTest(DDConso,type="c") #p-value: 0.01
 PP.test(sDDConso,lshort=TRUE) #p-value: 0.01
